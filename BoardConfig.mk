@@ -45,7 +45,6 @@ TW_THEME := portrait_mdpi
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
-TARGET_RECOVERY_FSTAB := device/samsung/t769/twrp.fstab
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_INTERNAL_STORAGE_PATH := "/sdcard"
