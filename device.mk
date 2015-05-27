@@ -38,9 +38,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/t769/configs/media_profiles.xml:system/etc/media_profiles.xml \
 
-# TWRP
-PRODUCT_COPY_FILES += \
-    device/samsung/t769/twrp.fstab:recovery/root/etc/twrp.fstab \
-
 # Inherit from celox-common
 $(call inherit-product, device/samsung/celox-common/celox-common.mk)
